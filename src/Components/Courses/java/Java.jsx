@@ -7,7 +7,8 @@ import "primeicons/primeicons.css";
 import "primereact/resources/themes/saga-blue/theme.css";
 import { Accordion, Navbar,Nav } from "react-bootstrap";
 import content from "./content.json";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
+import whatisjava from './tutorials/Whatisjava/Whatisjava';
 
 const Java = () => {
   const [visibleLeft, setVisibleLeft] = useState(false);
@@ -21,7 +22,7 @@ const Java = () => {
           visible={visibleLeft}
           onHide={() => {setVisibleLeft(false)
                          setButtonImage('pi pi-arrow-right')  }}
-          style={{ position: "sticky" }}
+          style={{ position: "fixed" }}
         >
           <h3>Contents</h3>
           <Accordion defaultActiveKey="0">
@@ -61,6 +62,9 @@ const Java = () => {
         <Navbar.Brand style={{fontWeight:"bold"}}>Java Tutorial</Navbar.Brand>
         </Nav>
       </Navbar>
+
+        <Route path="/java/java-what" component={whatisjava}/>
+
     </div>
   );
 };
