@@ -7,12 +7,16 @@ import "primeicons/primeicons.css";
 import "primereact/resources/themes/saga-blue/theme.css";
 import { Accordion, Navbar,Nav } from "react-bootstrap";
 import content from "./content.json";
-import { Link, Route } from "react-router-dom";
+import { Link, Route, Switch, Redirect } from "react-router-dom";
 import whatisjava from './tutorials/Whatisjava/Whatisjava';
 
 const Java = () => {
+
+  //useEffect(() => setSubContent(""))
+
   const [visibleLeft, setVisibleLeft] = useState(false);
   const [buttonimage, setButtonImage] = useState('pi pi-arrow-right')
+  const [subContent, setSubContent] = useState('What is java')
   return (
     <div>
       {/* <div className="card"> */}
@@ -38,6 +42,7 @@ const Java = () => {
                             to={ele.link}
                             style={{ paddingLeft: 13, textDecoration: "none" }}
                             overlay='light-red'
+                            onClick={()=> setSubContent(ele.name)}
                           >
                             {ele.name}
                           </Link>
@@ -59,12 +64,14 @@ const Java = () => {
         />
         <Nav className="me-auto"></Nav>
         <Nav className="me-auto">
-        <Navbar.Brand style={{fontWeight:"bold"}}>Java Tutorial</Navbar.Brand>
+        <Navbar.Brand style={{fontWeight:"bold"}}>Java Tutorial - {subContent}</Navbar.Brand>
         </Nav>
       </Navbar>
 
-        <Route path="/java/java-what" component={whatisjava}/>
-
+        <Switch>
+        <Route exact path="/java/java-what" component={whatisjava}/>
+        <Route exact path="/java" render={()=>(<Redirect to="/java/java-what"/>)}/>
+        </Switch>
     </div>
   );
 };

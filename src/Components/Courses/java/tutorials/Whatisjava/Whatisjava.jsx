@@ -93,6 +93,8 @@ export default function Whatisjava() {
                   fontFamily: '"Fira code", "Fira Mono", monospace',
                   fontSize: 12,
                   backgroundColor: "#aafae0",
+                  width:"auto",
+                  boxShadow: "5px 5px 5px grey"
                 }}
               />
             </div>
