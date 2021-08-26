@@ -33,7 +33,7 @@ const Java = () => {
             {content.contents.map((element, index) => {
               return (
                 <Accordion.Item eventKey={index}>
-                  <Accordion.Header>{element.name}</Accordion.Header>
+                  <Accordion.Header><span style={{fontWeight: "bold"}}>{element.name}</span></Accordion.Header>
                   <Accordion.Body>
                     {element.subcontent.map((ele) => {
                       return (

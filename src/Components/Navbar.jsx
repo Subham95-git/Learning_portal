@@ -37,7 +37,13 @@ const Appbar = () => {
                   <NavDropdown.Item>
                     <Link
                       to={d.link}
-                      style={{ paddingLeft: 13, textDecoration: "none", fontWeight: "bold", color:"#198754"}}
+                      style={{
+                        paddingLeft: 13,
+                        textDecoration: "none",
+                        fontWeight: "bold",
+                        color: "#198754",
+                       
+                      }}
                     >
                       {d.name}
                     </Link>
@@ -46,7 +52,20 @@ const Appbar = () => {
               </NavDropdown>
               <NavDropdown title="Practice" id="collasible-nav-dropdown">
                 {data.courses.map((d) => (
-                  <NavDropdown.Item>{d.name}</NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link
+                      to={d.link}
+                      style={{
+                        paddingLeft: 13,
+                        textDecoration: "none",
+                        fontWeight: "bold",
+                        color: "#198754",
+                        
+                      }}
+                    >
+                      {d.name}
+                    </Link>
+                  </NavDropdown.Item>
                 ))}
               </NavDropdown>
             </Nav>
