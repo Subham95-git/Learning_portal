@@ -1,0 +1,189 @@
+{
+    "contents":[
+        {
+            "name":"Introduction",
+            "subcontent": [
+                {
+                    "name":"What is java",
+                    "link": "/java/java-what"
+                },
+                {
+                    "name":"History of java",
+                    "link": "/java/java-history"
+                },
+                {
+                    "name":"Feature of java",
+                    "link": "/java/java-feature"
+                },
+                {
+                    "name":"First program in java",
+                    "link": "/java/java-first"
+                },
+                {
+                    "name":"Program Internal",
+                    "link": "/java/java-internal"
+                },
+                {
+                    "name":"How to set path",
+                    "link": "/java/java-path"
+                },
+                {
+                    "name":"JDK, JRE & JVM",
+                    "link": "/java/java-jdk-jre"
+                },
+                {
+                    "name":"JVM: Java Virtula Machine",
+                    "link": "/java/java-jvm"
+                },
+                {
+                    "name":"Java Variables",
+                    "link": "/java/java-variables"
+                },
+                {
+                    "name":"Java Data Types",
+                    "link": "/java/java-datatype"
+                },
+                {
+                    "name":"Operators",
+                    "link": "/java/java-operator"
+                },
+                {
+                    "name":"Keywords",
+                    "link": "/java/java-keywords"
+                }
+            ]
+        },
+        {
+            "name":"Control Statment",
+            "subcontent": [
+                {
+                    "name":"Java Control Statment",
+                    "link": "/java/java-control"
+                },
+                {
+                    "name":"If-Else",
+                    "link": "/java/java-ifelse"
+                },
+                {
+                    "name":"Switch",
+                    "link": "/java/java-switch"
+                },
+                {
+                    "name":"For Loop",
+                    "link": "/java/java-for"
+                },
+                {
+                    "name":"While Loop",
+                    "link": "/java/java-while"
+                },
+                {
+                    "name":"Do While Loop",
+                    "link": "/java/java-dowhile"
+                },
+                {
+                    "name":"Break",
+                    "link": "/java/java-break"
+                },
+                {
+                    "name":"Continue",
+                    "link": "/java/java-continue"
+                },
+                {
+                    "name":"Comments",
+                    "link": "/java/java-comments"
+                },
+                {
+                    "name":"Programs",
+                    "link": "/java/java-programs"
+                }
+            ]
+        },
+        {
+            "name":"Java Object Class",
+            "subcontent": [
+                {
+                    "name":"Java OOPs Concept",
+                    "link": "/java/java-oops"
+                },
+                {
+                    "name":"Naming Convention",
+                    "link": "/java/java-naming"
+                },
+                {
+                    "name":"Object & Class",
+                    "link": "/java/java-object"
+                },
+                {
+                    "name":"Method",
+                    "link": "/java/java-method"
+                },
+                {
+                    "name":"Constructor",
+                    "link": "/java/java-constructor"
+                },
+                {
+                    "name":"Static Keyword",
+                    "link": "/java/java-static"
+                },
+                {
+                    "name":"This Keyword",
+                    "link": "/java/java-this"
+                }
+            ]
+        },
+        {
+            "name":"Java Inheritance",
+            "subcontent": [
+                {
+                    "name":"Inheritance",
+                    "link": "/java/java-inheritance"
+                },
+                {
+                    "name":"Aggregation",
+                    "link": "/java/java-aggregation"
+                }
+            ]
+        },
+        {
+            "name":"Java Polymorphism",
+            "subcontent": [
+                {
+                    "name":"Method Overloading",
+                    "link": "/java/java-overloading"
+                },
+                {
+                    "name":"Method Overriding",
+                    "link": "/java/java-overriding"
+                },
+                {
+                    "name":"Covariant Return Type",
+                    "link": "/java/java-covariant"
+                },
+                {
+                    "name":"Super Keyword",
+                    "link": "/java/java-super"
+                },
+                {
+                    "name":"Instance Initializer Block",
+                    "link": "/java/java-instance-initializer"
+                },
+                {
+                    "name":"Final Keyword",
+                    "link": "/java/java-final"
+                },
+                {
+                    "name":"Runtime Polymorphism",
+                    "link": "/java/java-runtime-poly"
+                },
+                {
+                    "name":"Dynamic Binding",
+                    "link": "/java/java-dynamicbinding"
+                },
+                {
+                    "name":"Instanceof Operator",
+                    "link": "/java/java-instanceof"
+                }
+            ]
+        }
+    ]
+}

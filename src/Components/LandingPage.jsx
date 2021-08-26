@@ -3,12 +3,13 @@ import {Carousel, Row, Col, Card, Button} from 'react-bootstrap';
 import './Styles/Landing.css';
 import data from '../Resouses/Courses.json';
 //import rightarrow from '../Resouses/rightarrow.svg';
+import {Link} from 'react-router-dom';
 
 const LandingPage = ()=> {
     return (
-        <div>
+        <div >
             <Carousel>
-  <Carousel.Item>
+  <Carousel.Item interval={1500}>
     <img style={{height:'350px'}}
       className="d-block w-100"
       src="https://cloudacademy.com/wp-content/uploads/2014/10/Asset-93.png"
@@ -19,28 +20,28 @@ const LandingPage = ()=> {
       <p>A new era of Cloud is waiting ahead.</p>
     </Carousel.Caption> */}
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={1500}>
     <img style={{height:'350px'}}
       className="d-block w-100"
       src="https://qph.fs.quoracdn.net/main-qimg-4d5306c2aabb3cc1741dc7ce576ccbb6"
       alt="Second slide"
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={1500}>
     <img style={{height:'350px'}}
       className="d-block w-100"
       src="https://s3.us-east-1.amazonaws.com/storage.trumplearning.com/cmsfiles/best-full-stack-web-developer-courses-certification-online-ppjh0d5a.jpg"
       alt="Third slide"
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={1500}>
     <img style={{height:'350px'}}
       className="d-block w-100"
       src="https://analyticsindiamag.com/wp-content/uploads/2020/12/Kubernetes_AIM.jpg"
       alt="Third slide"
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={1500}>
     <img style={{height:'350px'}}
       className="d-block w-100"
       src="https://images.financialexpress.com/2021/07/z12.jpg"
@@ -58,10 +59,12 @@ const LandingPage = ()=> {
           <Card.Img variant="top" src={d.image}  style={{'height': '100px'}}/>
           <Card.Body>
             <Card.Title>{d.name}</Card.Title>
+            <Link to={d.link}>
             <Button variant="dark">
                 Start
                 {/* <img src={rightarrow} alt='enter'/> */}
             </Button>
+            </Link>
           </Card.Body>
         </Card>
       </Col>
@@ -71,6 +74,7 @@ const LandingPage = ()=> {
 </Row>
 </div>
 
+      <Link to="/" />
         </div>
     )
 }
