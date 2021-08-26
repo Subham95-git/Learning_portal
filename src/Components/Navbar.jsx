@@ -18,7 +18,13 @@ const Appbar = () => {
   console.log(data.courses.map((d) => d.name));
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="success" variant="dark" style={{boxShadow:"10px 10px 5px grey"}}>
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="success"
+        variant="dark"
+        style={{ boxShadow: "10px 10px 5px grey" }}
+      >
         <Container>
           <Navbar.Brand href="/">My Library</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -29,7 +35,12 @@ const Appbar = () => {
               <NavDropdown title="Courses" id="collasible-nav-dropdown">
                 {data.courses.map((d) => (
                   <NavDropdown.Item>
-                    <Link to={d.link}>{d.name}</Link>
+                    <Link
+                      to={d.link}
+                      style={{ paddingLeft: 13, textDecoration: "none", fontWeight: "bold", color:"#198754"}}
+                    >
+                      {d.name}
+                    </Link>
                   </NavDropdown.Item>
                 ))}
               </NavDropdown>
