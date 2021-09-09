@@ -1,0 +1,108 @@
+.outerDiv{
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-image: url(https://www.document-logistix.com/education/images/bg_education.jpg);
+    background-size: 100vw 80vh;
+   
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 52%;
+    max-width: 90%;
+    
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px green;
+  }
+
+  .bottomLeft {
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+    margin-top: 13%;
+  }
+  
+  
+
+  h1{
+      color: white;
+      text-shadow: 4px 4px 5px black;
+      /* font-size: 5vw ; */
+  }
+
+  p{
+    color: white;
+    text-shadow: 4px 4px 5px black;
+  }
+
+
+  link{
+      padding:left;
+      text-decoration: none !important;
+  }
+
+  @media screen and (min-width: 601px) {
+    h1 {
+      font-size: 50px;
+    }
+
+    .contentHeader{
+        font-size: 20px;
+        color: chocolate;
+        font-weight: bold;
+    }
+
+    .contentBody{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    Button{
+        font-size: 20px !important;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+      }
+      .contentHeader{
+        font-size: 15px;
+        color: chocolate;
+        font-weight: bold;
+    }
+
+    .contentBody{
+        font-size: 13px !important;
+    }
+
+      p{
+        font-size: 15px;
+       }
+
+       Button{
+        font-size: 14px !important;
+      }
+
+      .bottomLeft {
+        position: relative;
+        bottom: 5%;
+        left: 10%;
+        margin-top: 35% !important;
+      }
+
+      .sideBar{
+          max-width: 70%;
+      }
+  }
