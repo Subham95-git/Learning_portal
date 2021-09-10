@@ -1,6 +1,5 @@
 import React from 'react';
 import {Carousel, Row, Col, Card, Button} from 'react-bootstrap';
-import './Styles/Landing.css';
 import data from '../Resouses/Courses.json';
 //import rightarrow from '../Resouses/rightarrow.svg';
 import {Link} from 'react-router-dom';

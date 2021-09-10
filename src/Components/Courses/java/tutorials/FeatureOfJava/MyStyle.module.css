@@ -16,6 +16,10 @@
         box-shadow: 10px 10px 5px;
       }
 
+      strong{
+        color: rgb(81, 136, 240);
+      }
+      
       .codingPanel{
         max-width: 60%;
         margin-top: 3%;
@@ -66,6 +70,9 @@
         padding-bottom: 4%;
         opacity: 0.7;
         box-shadow: 10px 10px 5px;
+      }
+      strong{
+        color: rgb(81, 136, 240);
       }
 
       .codingPanel{

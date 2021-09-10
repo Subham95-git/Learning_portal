@@ -10,16 +10,20 @@ import whatisJava from "./Components/Courses/java/tutorials/Whatisjava/Whatisjav
 import JavaHistory from "./Components/Courses/java/tutorials/JavaHistory/JavaHistory";
 import JavaFeature from "./Components/Courses/java/tutorials/FeatureOfJava/JavaFeature";
 import JavaFirst from "./Components/Courses/java/tutorials/JavaFirstProgram/JavaFirstProg";
+import ScrollButton from './Components/ScrollButton';
+import JavaInternal from './Components/Courses/java/tutorials/JavaInternal/Javainternal';
 
 function App() {
   return (
     <div>
       <Router>
         <Navbar />
+        <ScrollButton/>
         {/* <Compiler/> */}
         {/* <LandingPage/> */}
 
         <Switch>
+        <Route exact path="/java/java-internal" component={JavaInternal}></Route>
           <Route exact path="/java/java-first" component={JavaFirst}></Route>
           <Route exact path="/java/java-feature" component={JavaFeature}></Route>
           <Route exact path="/java/java-what" component={whatisJava}></Route>
