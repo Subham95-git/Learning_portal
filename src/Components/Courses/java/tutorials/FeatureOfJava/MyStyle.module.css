@@ -38,6 +38,11 @@
         color: white;
         font-size: 20px;
     }
+    li{
+      color: white;
+      font-size: 20px;
+      /* font-weight: bold; */
+    }
 
     .editor{
         font-family: '"Fira code", "Fira Mono", monospace';
@@ -84,6 +89,12 @@
     .contentBody{
         color: white;
         font-size: 16px;
+    }
+
+    li{
+      color: white;
+      font-size: 16px;
+      /* font-weight: bold; */
     }
 
     .editor{

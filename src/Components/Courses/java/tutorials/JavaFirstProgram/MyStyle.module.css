@@ -19,12 +19,13 @@
       .codingPanel{
         max-width: 60%;
         margin-top: 3%;
-        background-color: rgb(218, 93, 134);
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        opacity: 0.7;
+        background-color: white;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        opacity: 0.5;
+        color: black;
         
       }
 
@@ -47,6 +48,11 @@
         color: "black";
         opacity: 0.5;
     }
+    a{
+      padding-left: 13;
+      text-decoration: none;
+      color: rgb(7, 165, 47);
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -64,15 +70,15 @@
       }
 
       .codingPanel{
-        max-width: 60%;
+        max-width: 100%;
         margin-top: 2%;
-        background-color: rgb(218, 93, 134);
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        opacity: 0.7;
-        
+        background-color: white;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        opacity: 0.5;
+        color: black;
       }
 
       .contentHeader{
@@ -93,5 +99,11 @@
         /* width:60%; */
         color: "black";
         opacity: 0.5;
+    }
+
+    a{
+      padding-left: 13;
+      text-decoration: none;
+      color: rgb(7, 165, 47);
     }
   }

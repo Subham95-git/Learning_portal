@@ -21,8 +21,7 @@ export default function Java2() {
           {/* </div> */}
         </div>
         <div className={styles.bottomLeft}>
-          <Button variant="warning" style={{boxShadow: "5px 5px 5px green"}}>
-            <Link
+        <Link
               to={"/java/java-what"}
               style={{
                 paddingLeft: 11,
@@ -31,9 +30,11 @@ export default function Java2() {
                 fontWeight: "bold",
               }}
             >
+          <Button variant="warning" style={{boxShadow: "5px 5px 5px green"}}>
+            
               Start Learning
-            </Link>
-          </Button>
+            
+          </Button></Link>
         </div>
       </div>
 
