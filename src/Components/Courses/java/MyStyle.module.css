@@ -39,7 +39,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 7px rgb(225, 233, 110);
     background-color: rgb(12, 12, 12);
     opacity: 1;
     z-index: 1;
@@ -137,7 +137,7 @@
         position: fixed;
         width: 100%;
         top: 0;
-        box-shadow: 5px 5px 5px grey;
+        box-shadow: 5px 5px 7px rgb(225, 233, 110);
         background-color: rgb(12, 12, 12);
         opacity: 1;
         z-index: 1;
