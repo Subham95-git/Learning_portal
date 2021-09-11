@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import JavaContent from "../../JavaContent";
 import style from "./MyStyle.module.css";
-import Editor from "react-simple-code-editor";
-import { highlight, languages } from "prismjs/components/prism-core";
-import "prismjs/components/prism-clike";
-import "prismjs/components/prism-java";
+// import Editor from "react-simple-code-editor";
+// import { highlight, languages } from "prismjs/components/prism-core";
+// import "prismjs/components/prism-clike";
+// import "prismjs/components/prism-java";
 import Image from "react-bootstrap/Image";
 
 export default function Javainternal() {
