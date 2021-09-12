@@ -13,6 +13,9 @@ import JavaFirst from "./Components/Courses/java/tutorials/JavaFirstProgram/Java
 import ScrollButton from "./Components/ScrollButton";
 import JavaInternal from "./Components/Courses/java/tutorials/JavaInternal/Javainternal";
 import JavaPath from "./Components/Courses/java/tutorials/JavaPath/JavaPath";
+import JavaJDK from "./Components/Courses/java/tutorials/Jdk_Jre/JavaJDK";
+import JavaJVM from './Components/Courses/java/tutorials/JVM/JavaJVM'
+import JavaVariables from "./Components/Courses/java/tutorials/JavaVariables/JavaVariables";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
         {/* <LandingPage/> */}
 
         <Switch>
+        <Route exact path="/java/java-variables" component={JavaVariables}></Route>
+        <Route exact path="/java/java-jvm" component={JavaJVM}></Route>
+        <Route exact path="/java/java-jdk-jre" component={JavaJDK}></Route>
           <Route exact path="/java/java-path" component={JavaPath}></Route>
           <Route
             exact
